@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 140px;
+
+}
+.logo{
+    background-image:url("amazon_PNG2.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid  white;
+}
+/**box2**/
+.addfirst{
+     font-size: 0.85rem;
+     color: #cccccc;
+     margin-left: 15px;
+}
+.addsec{
+     font-size: 1rem;
+     margin-left: 5px;
+     font-weight: bolder;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.navaddress{
+    margin-left: 30px;
+}
+/**box3**/
+.navsearchbar{
+    display: flex;
+    align-items: center;
+    height:40px;
+    width: 620px;
+    background-color: pink;
+    border-radius: 4px;
+    border: none;
+    justify-content: space-evenly;
+    margin-left: 40px;
+
+}
+.all{
+    background-color: #f3f3f3;
+    width: 70px;
+    height: 41px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+    margin:0 ;
+    color:#9c9999;
+}
+.searchinput{
+    width:530px;
+    height:39px;
+    border: none;
+    font-size: 1rem;
+    margin: 0;
+}
+.search-icon{
+    height: 41px;
+    width:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd68;
+    color: black;
+    
+}
+/**box4**/
+.en{
+    height:47px;
+    width: 70px;
+    display:flex;
+    margin-left: 20px;
+    
+}
+.india{
+    background-color:#0f1111;
+    width: 48px;
+    height: 30px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    border: none;
+}
+/**box5**/
+.signin{
+    height: 60px;
+    width:50px;
+    border: none;
+    margin-left: 29px;
+
+}
+.hello{
+      font-size: 0.85rem;
+      color:#cccccc;
+}
+.ac{
+    display: flex;
+}
+.al{
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+.op{
+    border:none;
+    border-style: none;
+    height: 20px;
+    width:15px;
+    background-color: #0f1111;
+    color: white;
+}
+/**box6**/
+.order{
+    height:45px;
+    width:80px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.r{
+    font-size: 0.85rem;
+    color:#cccccc;
+}
+.e{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.o{
+    display: flex;
+}
+/**box6**/
+.cart{
+    height: 60px;
+    width: 80px;
+    display:flex;
+}
+.carticon{
+     font-size: 2rem;
+     display: flex;
+     margin-top: 10px;
+}
+.c{
+    font-size: 1rem;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+/**navigation2**/
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.panelops p{
+    display: inline;
+    margin-left: 10px;
+}
+.panelops{
+    width:70%;
+    font-size: 0.85rem;
+}
+.shopes{
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+/**hero**/
+.hero{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#ff1493;
+    
+    
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    color: 2px solid black ;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+
+}
+
+.box1img{
+    background-image: url(box1.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.see{
+    font-size: 1rem;
+    color:rgb(0, 174, 255);
+    font-weight: none;
+}
+.n{
+    height: 135px;
+    width: 100%;
+    margin-top: 70px;
+    text-align:center ;
+}
+.sp{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+    
+}
+.button {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+        
+}
+.b{
+    width: 250px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color:  rgb(224, 175, 13);
+    border: none;
+    font-weight: bolder;
+}
+.new{
+    font-size: 0.7rem;
+    margin-top: 5px;
+    
+
+}
+.start{
+    color:rgb(0, 174, 255) ;
+    text-decoration: none;
+    
+}
+.fot1{
+    height: 35px;
+    width: 100%;
+    background-color: #2f4258;
+    margin-top:5px ;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    
+    
+
+}
+.fot2{
+    height: 300px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.getto{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.connect{
+    list-style-type: none;
+}
+
+.makemoney{
+    list-style-type: none;
+}
+
+.letus{
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+}
+.getto li a{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.connect li a{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.makemoney li a{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.letus li a{
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+.mk{
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.fot3{
+    height: 200px;
+    width: 100%;
+    background-color: #222f3d ;
+    border-top:  0.25px solid white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+.fotlogo{
+    background-image:url("amazon_PNG2.png") ;
+    background-size: cover;
+    height: 40px;
+    width: 103px;
+    margin-top: 20px;
+}
+.english{
+    margin-left: 50px;
+    margin-top: 15px;
+    height:30px;
+    width:100px;
+    color: #cccccc;
+    background-color:  #222f3d;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.englih{
+    background-color:  #222f3d;
+    border: none;
+    color: #cccccc;
+
+}
+.g{
+    margin-top: 7px;
+}
+.australia p{
+    color: #cccccc;
+    display :inline;
+}
+
